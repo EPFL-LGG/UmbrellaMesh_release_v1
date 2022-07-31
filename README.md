@@ -12,10 +12,14 @@
     ·
     <a href="http://lgg.epfl.ch/people.php?p=1/"><strong>Uday Kusupati*</strong></a>
     ·
-    <a href="http://julianpanetta.com/"><strong>Julian Panetta</strong></a>
-    <a href="http://lgg.epfl.ch/people.php?p=1"><strong>Florin Isvoranu</strong></a>
+    <a href="http://julianpanetta.com/"><strong>Julian Panetta</strong></a> 
+    .
+    <a href="http://lgg.epfl.ch/people.php?p=1"><strong>Florin Isvoranu</strong></a> 
+    .
     <a href="http://lgg.epfl.ch/people.php?p=1"><strong>Davide Pellis</strong></a>
+    .
     <a href="http://lgg.epfl.ch/people.php?p=1/"><strong>Tian Chen</strong></a>
+    .
     <a href="http://lgg.epfl.ch/people.php?p=1"><strong>Mark Pauly</strong></a>
   </p>
 

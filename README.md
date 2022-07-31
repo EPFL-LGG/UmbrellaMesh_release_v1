@@ -39,7 +39,7 @@ This repository contains the source code and data for paper Umbrella Meshes: Ela
 
 **Note**: major refactoring is in progress! Please stay tune for updated versions in Fall 2022!
 
-![Build status](https://github.com/EPFL-LGG/UmbrellaMesh/actions/workflows/autotests.yml/badge.svg)
+![Build status](https://github.com/EPFL-LGG/UmbrellaMesh_release_v1/actions/workflows/autotests.yml/badge.svg)
 
 ## Getting Started
 

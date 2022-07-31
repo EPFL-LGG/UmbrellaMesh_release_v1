@@ -1,0 +1,6 @@
+{
+    "type": "Rectangle",
+    "young": 2000,
+    "poisson": 0.3,
+    "params": [ 0.01, 0.4 ]
+}

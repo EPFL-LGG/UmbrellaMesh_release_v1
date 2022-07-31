@@ -1,0 +1,33 @@
+normalActivationThreshold: -1.0219706033230115e-05
+Solver status for tsf_only: 1 
+Solver status for tsf_only: 1 
+Solver status for tsf_only: 1 
+Solver status for tsf_only: 1 
+Solver status for tsf_only: 1 
+Optimization objective with constant weight: {'DeploymentForce': 0.0, 'ElasticEnergy': 3.517118883652472, 'Stress': 0.0, 'TargetFitting': 0.6422543796235256, 'UmbrellaForces': 176.45927379627503, 'Full': 180.61864705955102}
+Runnning this experiment on lilium_smooth takes 431.415483 seconds
+normalActivationThreshold: -1.0219706042230287e-05
+Solver status for tsf+energy: 1 
+Solver status for tsf+energy: 1 
+Solver status for tsf+energy: 1 
+Solver status for tsf+energy: 1 
+Solver status for tsf+energy: 1 
+Optimization objective with constant weight: {'DeploymentForce': 0.0, 'ElasticEnergy': 1.6646980061467007, 'Stress': 0.0, 'TargetFitting': 0.9195817304560578, 'UmbrellaForces': 51.98903617234201, 'Full': 54.57331590894477}
+Runnning this experiment on lilium_smooth takes 529.148293 seconds
+normalActivationThreshold: -1.0219705965062508e-05
+Solver status for tsf+energy+force: 1 
+Solver status for tsf+energy+force: 1 
+Solver status for tsf+energy+force: 1 
+Solver status for tsf+energy+force: 1 
+Solver status for tsf+energy+force: 1 
+Optimization objective with constant weight: {'DeploymentForce': 0.0, 'ElasticEnergy': 2.0699161748943142, 'Stress': 0.0, 'TargetFitting': 4.384327721803992, 'UmbrellaForces': 5.216156529487859, 'Full': 11.670400426186166}
+Runnning this experiment on lilium_smooth takes 1366.48942 seconds
+normalActivationThreshold: -1.0219706039102913e-05
+Solver status for tsf+force: 1 
+Solver status for tsf+force: 1 
+Solver status for tsf+force: 1 
+Solver status for tsf+force: 1 
+Solver status for tsf+force: 1 
+Optimization objective with constant weight: {'DeploymentForce': 0.0, 'ElasticEnergy': 2.4482747499055946, 'Stress': 0.0, 'TargetFitting': 4.519807999008463, 'UmbrellaForces': 5.744288209486174, 'Full': 12.712370958400232}
+Runnning this experiment on lilium_smooth takes 1303.790576 seconds
+Runnning this experiment on lilium_smooth takes 3642.59864 seconds

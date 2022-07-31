@@ -1,0 +1,69 @@
+name: Build
+
+on: 
+  push:
+    branches:
+      - main
+env:
+  BUILD_TYPE: Release
+  
+jobs:
+  build:
+    runs-on: "ubuntu-latest"
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: recursive
+        token: ${{ secrets.SAMARA }}
+    
+    # Setup caching of build artifacts to reduce total build time
+    - name: ccache
+      uses: hendrikmuhs/ccache-action@v1
+
+    - name: Create Build Environment
+      run: cmake -E make_directory ${{github.workspace}}/build
+      
+    - name: Install dependencies
+      run: sudo apt-get update && sudo apt-get install -yq ninja-build libboost-filesystem-dev libboost-system-dev libboost-program-options-dev libsuitesparse-dev libpng-dev libgl1-mesa-dev libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev
+
+    - name: Cache conda
+      uses: actions/cache@v2
+      env:
+        # Increase this value to reset cache if environment.yml has not changed
+        CACHE_NUMBER: 0
+      with:
+        path: ~/conda_pkgs_dir
+        key:
+          ${{ runner.os }}-conda-${{ env.CACHE_NUMBER }}-${{
+          hashFiles('environment.yml') }}
+    - uses: conda-incubator/setup-miniconda@v2
+      with:
+        activate-environment: umbrella_mesh
+        channel-priority: strict
+        environment-file: environment.yml
+        use-only-tar-bz2: true # IMPORTANT: This needs to be set for caching to work properly!
+        auto-activate-base: false
+    - name: Install npm
+      run: sudo npm install npm@latest -g
+    - name: Install pythreejs
+      shell: bash -l {0}
+      run: |
+        git clone https://github.com/jpanetta/pythreejs && cd pythreejs
+        pip3 install matplotlib scipy networkx
+        pip3 install -e .
+    - name: Configure CMake
+      # Use a bash shell so we can use the same syntax for environment variable
+      # access regardless of the host operating system
+      shell: bash -l {0}
+      working-directory: ${{github.workspace}}/build
+      run: cmake ${{github.workspace}} -DCMAKE_BUILD_TYPE=$BUILD_TYPE -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -GNinja
+
+    - name: Build
+      working-directory: ${{github.workspace}}/build
+      shell: bash -l {0}
+      run: ninja
+
+    - name: Test
+      working-directory: ${{github.workspace}}/python/tests
+      shell: bash -l {0}
+      run: pytest

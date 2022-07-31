@@ -1,0 +1,15 @@
+[submodule "3rdparty/elastic_rods/3rdparty/MeshFEM"]
+	path = 3rdparty/elastic_rods/3rdparty/MeshFEM
+	url = git@github.com:MeshFEM/MeshFEM.git
+[submodule "3rdparty/elastic_rods/3rdparty/RotationOptimization"]
+	path = 3rdparty/elastic_rods/3rdparty/RotationOptimization
+	url = git@github.com:EPFL-LGG/RotationOptimization.git
+[submodule "3rdparty/elastic_rods/3rdparty/LBFGSpp"]
+	path = 3rdparty/elastic_rods/3rdparty/LBFGSpp
+	url = git@github.com:yixuan/LBFGSpp.git
+[submodule "3rdparty/elastic_rods/3rdparty/libigl"]
+	path = 3rdparty/elastic_rods/3rdparty/libigl
+	url = git@github.com:jpanetta/libigl.git
+[submodule "3rdparty/elastic_rods/3rdparty/visvalingam_simplify"]
+	path = 3rdparty/elastic_rods/3rdparty/visvalingam_simplify
+	url = git@github.com:jpanetta/visvalingam_simplify.git

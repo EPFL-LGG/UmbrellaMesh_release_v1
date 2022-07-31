@@ -1,0 +1,297 @@
+Opening linkage with 288 segments, 157 joints, and 9765 DoF.
+Solving for rest lengths
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 1e-08
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 4e-08
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 1.6e-07
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 6.4e-07
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 2.56e-06
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 1.024e-05
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 4.096e-05
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.00016384
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.00065536
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.00262144
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.0104858
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.041943
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.167772
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.671089
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 2.68435
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 10.7374
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 42.9497
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 171.799
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 687.195
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 2748.78
+0	2.08769e+07	2.29458e+06	2.29458e+06	1	1
+1	149904	76151.3	76151.3	1	0
+2	707.892	5575.31	5575.31	1	0
+3	631.996	63.2743	63.2743	1	0
+4	631.953	0.00695014	0.00695014	1	0
+5	631.953	2.89582e-05	2.89582e-05	1	0
+6	631.953	2.52387e-05	2.52387e-05	0.125	0
+7	631.953	2.5095e-05	2.5095e-05	0.0625	0
+8	631.953	2.37151e-05	2.37151e-05	3.05176e-05	0
+Backtracking failed.
+8	631.953	2.37151e-05	2.37151e-05	3.05176e-05	0
+0	631.953	122.98	122.98	1	0
+1	623.117	3.17345	3.17345	1	0
+2	623.117	0.005806	0.005806	1	0
+3	623.117	2.78971e-05	2.78971e-05	1	0
+Opening the linkage
+Setting angle: 0.555589
+0	1.63532e+06	345660	345660	1	0
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.001
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.004
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.016
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.064
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.256
+1	9095.41	13337.5	13337.5	1	1
+2	3783.07	2214.95	2214.95	1	0
+3	3733.19	33.6351	33.6351	1	0
+4	3733.09	0.738628	0.738628	1	0
+5	3733.09	4.05259e-05	4.05259e-05	1	0
+Setting angle: 0.73614
+0	1.06929e+06	276046	276046	1	0
+1	10708.8	2194.12	2194.12	1	0
+2	10643.3	39.7965	39.7965	1	0
+3	10643.3	0.015573	0.015573	1	0
+4	10643.3	2.9005e-05	2.9005e-05	1	0
+Setting angle: 0.916692
+0	1.02504e+06	271112	271112	1	0
+1	20909.8	981.789	981.789	1	0
+2	20896.9	4.57087	4.57087	1	0
+3	20896.9	7.71484e-05	7.71484e-05	1	0
+Setting angle: 1.09724
+0	1.04149e+06	274988	274988	1	0
+1	35076.5	683.966	683.966	1	0
+2	35051.3	7.91349	7.91349	1	0
+3	35051.3	0.000793494	0.000793494	1	0
+4	35051.3	2.51743e-05	2.51743e-05	1	0
+Setting angle: 1.27779
+0	1.08778e+06	283447	283447	1	0
+1	54286.5	645.217	645.217	1	0
+2	54235.8	18.5466	18.5466	1	0
+3	54235.8	0.00972154	0.00972154	1	0
+4	54235.8	2.65373e-05	2.65373e-05	1	0
+Setting angle: 1.45835
+0	1.16634e+06	296817	296817	1	0
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.001
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.004
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.016
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.064
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.256
+1	80479.8	782.379	782.379	1	1
+2	80372.1	44.6523	44.6523	1	0
+3	80372.1	0.202683	0.202683	1	0
+4	80372.1	7.33161e-05	7.33161e-05	1	0
+Setting angle: 1.6389
+0	1.29635e+06	317821	317821	1	0
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.001
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.004
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.016
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.064
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.256
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 1.024
+1	117166	1224.62	1224.62	1	1
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.512
+2	116891	123.805	123.805	1	1
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.256
+3	116890	2.60715	2.60715	1	1
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.128
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.512
+4	116890	0.0437829	0.0437829	1	1
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.256
+5	116890	9.5843e-05	9.5843e-05	1	1
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.128
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.512
+Computing negative curvature direction for scaled tau = 2.53491e-07
+6	116890	2.47157e-05	2.47157e-05	1	1
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.256
+7	116890	34.3601	34.3601	1	1
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.128
+8	116890	52.6065	52.6065	0.5	1
+9	116890	259.196	259.196	1	0
+10	116888	101.966	101.966	0.25	0
+11	116887	367.199	367.199	1	0
+12	116884	150.218	150.218	0.5	0
+13	116884	756.858	756.858	1	0
+14	116876	79.2699	79.2699	0.0625	0
+15	116872	596.826	596.826	1	0
+16	116864	225.907	225.907	0.5	0
+17	116859	804.101	804.101	1	0
+18	116847	189.613	189.613	0.25	0
+19	116840	528.119	528.119	1	0
+20	116828	610.763	610.763	1	0
+21	116813	518.487	518.487	1	0
+22	116800	817.592	817.592	1	0
+23	116782	351.722	351.722	0.5	0
+24	116771	722.603	722.603	1	0
+25	116753	498.633	498.633	1	0
+26	116741	1124.54	1124.54	1	0
+27	116717	230.872	230.872	0.25	0
+28	116706	540.215	540.215	1	0
+29	116690	912.072	912.072	1	0
+30	116669	326.672	326.672	0.5	0
+31	116657	741.704	741.704	1	0
+32	116639	444.635	444.635	1	0
+33	116629	1144.99	1144.99	1	0
+34	116606	190.085	190.085	0.5	0
+35	116603	1258.34	1258.34	1	0
+36	116580	125.227	125.227	0.25	0
+37	116571	469.74	469.74	1	0
+38	116560	511.03	511.03	1	0
+39	116550	362.879	362.879	1	0
+40	116543	589.056	589.056	1	0
+41	116534	193.61	193.61	0.5	0
+42	116530	371.112	371.112	1	0
+43	116524	224.934	224.934	1	0
+44	116521	399.392	399.392	1	0
+45	116517	87.5477	87.5477	0.5	0
+46	116516	187.372	187.372	1	0
+47	116514	108.254	108.254	1	0
+48	116514	119.154	119.154	1	0
+49	116513	35.2636	35.2636	1	0
+50	116513	43.0176	43.0176	1	0
+Setting angle: 1.81945
+0	1.11204e+07	1.22498e+06	1.22498e+06	1	0
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.001
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.004
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.016
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.064
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.256
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 1.024
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 4.096
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 16.384
+1	167941	129298	129298	1	1
+2	163593	8629.66	8629.66	1	0
+3	163155	3356.51	3356.51	1	0
+4	162944	1292.38	1292.38	0.5	0
+5	162926	908.89	908.89	1	0
+6	162904	448.945	448.945	1	0
+7	162897	607.144	607.144	1	0
+8	162890	93.9285	93.9285	1	0
+9	162889	214.839	214.839	1	0
+10	162888	3.28946	3.28946	1	0
+11	162888	2.42079	2.42079	1	0
+12	162888	0.000263241	0.000263241	1	0
+13	162888	2.22492e-05	2.22492e-05	1	0
+Setting angle: 2
+0	9.77815e+06	1.10378e+06	1.10378e+06	1	0
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.001
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.004
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.016
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.064
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 0.256
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 1.024
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 4.096
+CHOLMOD warning: matrix not positive definite
+CHOLMOD detected non-positive definite matrix!; increasing tau to 16.384
+1	229483	100553	100553	1	1
+2	226490	3965.62	3965.62	1	0
+3	226312	1261.6	1261.6	1	0
+4	226284	747.761	747.761	1	0
+5	226276	274.338	274.338	1	0
+6	226274	100.508	100.508	1	0
+7	226274	11.1091	11.1091	1	0
+8	226274	0.253613	0.253613	1	0
+9	226274	0.000142568	0.000142568	1	0
+10	226274	2.17854e-05	2.17854e-05	1	0
+Compress Matrix	0.00348186	1
+Construct Factorizer	0.000760078	1
+    Compress Matrix	0.000622988	1
+Newton iterations	1.9276	11
+    Newton iterate	1.92492	118
+        Backtracking	0.0343654	109
+            RodLinkage setDoFs	0.0276575	151
+        Compute descent direction	1.81765	109
+            Negative curvature dir	0.00729895	1
+                negativeCurvatureDirection	0.00651002	1
+                    CHOLMOD Backsub	0.00354481	26
+                    CHOLMOD Numeric Factorize	0.000484943	1
+                    CHOLMOD Symbolic Factorize	0.000695944	1
+            newton_step	1.80866	109
+                Newton solve	1.31959	170
+                    CHOLMOD Numeric Factorize	1.14952	170
+                    RodLinkage Mass	0.0200267	12
+                    Solve	0.102498	109
+                        CHOLMOD Backsub	0.0938115	209
+                    largestMagnitudeEigenvalue	0.00876594	1
+                hessEval	0.475227	109
+                    RodLinkage Hessian	0.352801	100
+                    hessianPerSegmentRestlen	0.0687075	9
+                        RodLinkage Hessian	0.0536497	9
+        RodLinkage gradient	0.0286813	118
+        RodLinkage setDoFs	0.000100136	1
+    RodLinkage gradient	0.000226021	1
+RodLinkage gradient	0.00174475	9
+RodLinkage setDoFs	0.0043931	30
+fixVariables	0.000123978	1
+newton_step	0.118883	9
+    Newton solve	0.0803325	9
+        CHOLMOD Numeric Factorize	0.0696809	9
+        Solve	0.00971055	9
+            CHOLMOD Backsub	0.00824952	18
+    hessEval	0.0373378	9
+        RodLinkage Hessian	0.0322013	9
+CHOLMOD Backsub	0.000149012	1
+CHOLMOD Numeric Factorize	0.00314999	1
+CHOLMOD Symbolic Factorize	0.0115378	3
+Full time	2.09461

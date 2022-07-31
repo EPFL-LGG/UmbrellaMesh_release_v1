@@ -1,0 +1,59 @@
+{
+    "models": [
+        {
+            "name": "sphere_cap_0.3",
+            "use_boundary": false,
+            "optimized_parameters": "../../output/sphere_cap_0.3_optimized_params_2022_01_21_21_12.json"
+        },
+        {
+            "name": "sphere_cap_0.5",
+            "use_boundary": false,
+            "optimized_parameters": "../../output/sphere_cap_0.5_optimized_params_2022_01_21_21_17.json"
+        },
+        {
+            "name": "sphere_cap_0.7",
+            "use_boundary": false,
+            "optimized_parameters": "../../Optimized_model/sphere_cap_0.7/sphere_cap_0.7_optimized_params_2022_01_24_18_27.json"
+        },
+        {
+            "name": "saddle_5t",
+            "use_boundary": false,
+            "optimized_parameters": "../../python/optimization_experiments/2022_01_26_10_14_saddle_5t/saddle_5t_force_equilibrium_2022_01_26_10_14_target_height_factor_5.0.json.gz"
+        },
+        {
+            "name": "tigridia",
+            "use_boundary": true,
+            "optimized_parameters": "../../python/optimization_experiments/2022_01_26_20_21_tigridia/tigridia_force_equilibrium_optimized_params_2022_01_26_20_21_target_height_factor_5.0.json.gz"
+        },
+        {
+            "name": "igloo_bdry",
+            "use_boundary": true,
+            "optimized_parameters": "../../Optimized_model/igloo_bdry/igloo_bdry_optimized_params_2022_01_25_16_29.json"
+        },
+        {
+            "name": "hive",
+            "use_boundary": true,
+            "optimized_parameters": "../../Optimized_model/hive/hive_force_equilibrium_2022_01_26_11_31_target_height_factor_5.0.json.gz"
+        },
+        {
+            "name": "lilium_smooth",
+            "use_boundary": false,
+            "optimized_parameters": "../../Optimized_model/lilium_smooth/lilium_smooth_optimized_params_2022_01_23_17_46.json"
+        },
+        {
+            "name": "squidward_highres",
+            "use_boundary": false,
+            "optimized_parameters": "../../output/squidward_highres_optimized_params_2022_01_20_11_58.json"
+        },
+        {
+            "name": "peanut_archi",
+            "use_boundary": false,
+            "optimized_parameters": "../../Optimized_model/peanut/peanut_archi_optimized_params_2022_01_25_23_45.json"
+        },
+        {
+            "name": "stadium_teaser",
+            "use_boundary": false,
+            "optimized_parameters": "../../Optimized_model/new_teaser/stadium_teaser_optimized_params_2022_01_25_14_10.json"
+        }
+    ]
+}

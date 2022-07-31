@@ -1,0 +1,33 @@
+normalActivationThreshold: -1.6102200602586743e-05
+Solver status for tsf_only: 1 
+Solver status for tsf_only: 1 
+Solver status for tsf_only: 1 
+Solver status for tsf_only: 1 
+Solver status for tsf_only: 1 
+Optimization objective with constant weight: {'DeploymentForce': 0.0, 'ElasticEnergy': 3.3874938662838745, 'Stress': 0.0, 'TargetFitting': 1310.7578271473928, 'UmbrellaForces': 104.84443949590852, 'Full': 1418.9897605095853}
+Runnning this experiment on hive takes 1538.020058 seconds
+normalActivationThreshold: -1.6102200605609858e-05
+Solver status for tsf+energy: 1 
+Solver status for tsf+energy: 1 
+Solver status for tsf+energy: 1 
+Solver status for tsf+energy: 1 
+Solver status for tsf+energy: 1 
+Optimization objective with constant weight: {'DeploymentForce': 0.0, 'ElasticEnergy': 2.076127544516577, 'Stress': 0.0, 'TargetFitting': 3.0615391009312543, 'UmbrellaForces': 44.28849896274152, 'Full': 49.42616560818935}
+Runnning this experiment on hive takes 971.570305 seconds
+normalActivationThreshold: -1.610220060681453e-05
+Solver status for tsf+energy+force: 1 
+Solver status for tsf+energy+force: 1 
+Solver status for tsf+energy+force: 1 
+Solver status for tsf+energy+force: 1 
+Solver status for tsf+energy+force: 1 
+Optimization objective with constant weight: {'DeploymentForce': 0.0, 'ElasticEnergy': 2.0064928283979597, 'Stress': 0.0, 'TargetFitting': 3.2036746095846467, 'UmbrellaForces': 37.61084169507589, 'Full': 42.821009133058496}
+Runnning this experiment on hive takes 1347.591474 seconds
+normalActivationThreshold: -1.610220059868152e-05
+Solver status for tsf+force: 1 
+Solver status for tsf+force: 1 
+Solver status for tsf+force: 1 
+Solver status for tsf+force: 1 
+Solver status for tsf+force: 1 
+Optimization objective with constant weight: {'DeploymentForce': 0.0, 'ElasticEnergy': 2.7815668345485136, 'Stress': 0.0, 'TargetFitting': 1672.9913102375547, 'UmbrellaForces': 44.864520868781845, 'Full': 1720.6373979408852}
+Runnning this experiment on hive takes 1335.134241 seconds
+Runnning this experiment on hive takes 5208.208661 seconds

@@ -1,0 +1,12 @@
+# ../build/tools/open_linkage ../python/examples/optimized/data/simple_two_bumps_3/flat_opt.msh ../examples/cross_sections/Rectangle_16x8.json 1.6580627893946132 1e-6 1e-4 0.06 > simple_two_bumps.txt
+#       opt timing from ../build/final_simple_two_bumps_ncg.txt; ./linkage_editor/linkage_editor ~/Downloads/20190108_164134_meshID_1d1c1dc9-4638-474e-8f7f-6b95998b8a32.obj ../examples/cross_sections/Rectangle_16x8.json > final_simple_two_bumps_ncg.txt
+# ../build/tools/open_linkage ../examples/AsymmOverhanging2BumpsArchitecturalScale.obj ../examples/cross_sections/190108_section_test_R01.obj 1.6231562043547265 2 1e-1 0.13 > asymm_overhanging_2_bumps.txt
+#       opt timing from ../build/final_asymm_overhang_ncg.txt; ./linkage_editor/linkage_editor ~/Downloads/20190110_175743_meshID_e8e192ef-1bcb-4565-af26-7eac319e1ad6.obj ../examples/cross_sections/190108_section_test_R01.obj  > final_asymm_overhang_ncg.txt
+# ../build/tools/open_linkage ../python/examples/optimized/data/wiggly_banana_preopt/flat_opt.msh ../examples/cross_sections/Plus_5x5.json 1.3962634015954636 1e-4 1e-6 0.35 > wiggly.txt
+#       opt timing from ../build/wavey_ncg_0.01_nit5_cgit25.txt; ./linkage_editor/linkage_editor ../examples/florin/jgrids/20181022_112230_meshID_73265cae-cb87-4a2e-a36b-38036f90b033.obj ../examples/cross_sections/Plus_4x4.json >! wavey_ncg_0.01_nit5_cgit25.txt
+# Note: the video captures were done with Plus_5x5.json, and wavey_ncg_0.01_nit5_cgit25.txt was apparently also generated with Plus_5x5.json...
+#../build/tools/open_linkage ../python/examples/optimized/data/AsymmWingsPointy/flat_opt.msh ../examples/cross_sections/Rectangle_12x8.json 2.0 1e-3 1e-4 0.2 > asymm_wings_pointy.txt
+#       opt timing from ../build/asymm_wings_pointy_ncg.txt; ./linkage_editor/linkage_editor ../examples/florin/20190103_151502_meshID_1935b524-e979-4340-9245-326f69b6eae0.obj  ../examples/cross_sections/Rectangle_12x8.json > asymm_wings_pointy_ncg.txt
+# Forward design example (denser)
+# ../build/tools/open_linkage ../python/examples/PaperFigures/data/ForwardDesign/optimized/RhinoInitialExample/flat_opt.msh ../examples/cross_sections/PlusBeam_0.2x0.2.json 1.3962634015954636 1e-8 1e-4 0.08 > forward_sim_orig.txt
+#       opt timing from ../build/forward_design_opt_ncg_2.txt; ./linkage_editor/linkage_editor ../python/examples/PaperFigures/data/ForwardDesign/3_init2D.obj ../examples/cross_sections/PlusBeam_0.2x0.2.json > forward_design_opt_ncg_2.txt

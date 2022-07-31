@@ -1,0 +1,2 @@
+normalActivationThreshold: 1.8631346670055187e-06
+Runnning this experiment on lilium_smooth takes 898.080156 seconds

@@ -1,0 +1,17 @@
+normalActivationThreshold: -5.8669558462022134e-05
+Solver status for tsf_only: 1 
+Optimization objective with constant weight: {'DeploymentForce': 0.0, 'ElasticEnergy': 1.1886264978947152, 'Stress': 0.0, 'TargetFitting': 0.6119292542798186, 'UmbrellaForces': 120.12891249329166, 'Full': 121.9294682454662}
+Runnning this experiment on hemisphere_5t takes 17.248962 seconds
+normalActivationThreshold: -5.866955854041468e-05
+Solver status for tsf+energy: 1 
+Optimization objective with constant weight: {'DeploymentForce': 0.0, 'ElasticEnergy': 0.7225924917581407, 'Stress': 0.0, 'TargetFitting': 0.7341346976190024, 'UmbrellaForces': 188.3829429047895, 'Full': 189.83967009416665}
+Runnning this experiment on hemisphere_5t takes 12.861824 seconds
+normalActivationThreshold: -5.8669558413813186e-05
+Solver status for tsf+energy+force: 1 
+Optimization objective with constant weight: {'DeploymentForce': 0.0, 'ElasticEnergy': 2.571376532246898, 'Stress': 0.0, 'TargetFitting': 6.937782325097239, 'UmbrellaForces': 17.740076925382255, 'Full': 27.24923578272639}
+Runnning this experiment on hemisphere_5t takes 55.952327 seconds
+normalActivationThreshold: -5.866955845932419e-05
+Solver status for tsf+force: 1 
+Optimization objective with constant weight: {'DeploymentForce': 0.0, 'ElasticEnergy': 2.9172519267996475, 'Stress': 0.0, 'TargetFitting': 7.011674448880846, 'UmbrellaForces': 17.495973910155755, 'Full': 27.424900285836248}
+Runnning this experiment on hemisphere_5t takes 65.725582 seconds
+Runnning this experiment on hemisphere_5t takes 155.773221 seconds

@@ -1,0 +1,11 @@
+pybind11_add_module(umbrella_mesh umbrella_mesh.cc )
+set_target_properties(umbrella_mesh PROPERTIES CXX_STANDARD 14)
+set_target_properties(umbrella_mesh PROPERTIES CXX_STANDARD_REQUIRED ON)
+set_target_properties(umbrella_mesh PROPERTIES LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/python)
+target_link_libraries(umbrella_mesh PUBLIC UmbrellaMesh ElasticRods intel_pybind_14_hack)
+
+pybind11_add_module(umbrella_optimization umbrella_optimization.cc)
+set_target_properties(umbrella_optimization PROPERTIES CXX_STANDARD 14)
+set_target_properties(umbrella_optimization PROPERTIES CXX_STANDARD_REQUIRED ON)
+set_target_properties(umbrella_optimization PROPERTIES LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/python)
+target_link_libraries(umbrella_optimization PUBLIC UmbrellaMesh ElasticRods intel_pybind_14_hack)

@@ -1,0 +1,16 @@
+name: umbrella_mesh
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  - pip:
+    - flake8
+    - wheel
+    - jupyterlab
+    - ipykernel==5.5.5
+  - igl
+  - matplotlib
+  - pytest
+  - pytest-html
+  - pytest-timeout
+  - matplotlib

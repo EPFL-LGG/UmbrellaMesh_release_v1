@@ -13,14 +13,16 @@
     <a href="http://lgg.epfl.ch/people.php?p=1/"><strong>Uday Kusupati*</strong></a>
     ·
     <a href="http://julianpanetta.com/"><strong>Julian Panetta</strong></a> 
-    .
+    ·
     <a href="http://lgg.epfl.ch/people.php?p=1"><strong>Florin Isvoranu</strong></a> 
-    .
+    ·
     <a href="http://lgg.epfl.ch/people.php?p=1"><strong>Davide Pellis</strong></a>
-    .
+    ·
     <a href="http://lgg.epfl.ch/people.php?p=1/"><strong>Tian Chen</strong></a>
-    .
+    ·
     <a href="http://lgg.epfl.ch/people.php?p=1"><strong>Mark Pauly</strong></a>
+    <br />
+    *joint first author (order determined by coin toss)
   </p>
 
   <p align="center">
@@ -35,9 +37,9 @@
 
 ## About
 
-This repository contains the source code and data for paper Umbrella Meshes: Elastic Mechanisms for Freeform Shape Deployment, published at SIGGRAPH 2022. 
+This repository contains the source code and data for the paper Umbrella Meshes: Elastic Mechanisms for Freeform Shape Deployment, published at SIGGRAPH 2022. 
 
-**Note**: major refactoring is in progress! Please stay tune for updated versions in Fall 2022!
+**Note**: major refactoring is in progress! Please stay tuned for updated versions in Fall 2022!
 
 ![Build status](https://github.com/EPFL-LGG/UmbrellaMesh_release_v1/actions/workflows/autotests.yml/badge.svg)
 
@@ -120,7 +122,7 @@ Launch Jupyter lab from the root python directory:
 cd python
 jupyter lab
 ```
-There are four demo examples in `python/live_demos`. Try them out!
+There are four demos in `python/live_demos`. Try them out!
 
 
 ## Citation

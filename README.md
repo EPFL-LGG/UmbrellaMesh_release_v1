@@ -56,7 +56,7 @@ You can install all the necessary dependencies except `knitro` on macOS with [Ma
 
 ```bash
 # Build/version control tools, C++ code dependencies
-sudo port install cmake boost suitesparse ninja
+sudo port install cmake boost suitesparse ninja glew
 # Dependencies for jupyterlab/notebooks
 sudo port install npm6
 conda install python
@@ -71,6 +71,8 @@ sudo apt install git cmake ninja-build
 sudo apt install libboost-filesystem-dev libboost-system-dev libboost-program-options-dev libsuitesparse-dev
 # LibIGL/GLFW dependencies
 sudo apt install libgl1-mesa-dev libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev
+# Offscreen render dependencies
+sudo apt install libglew libpng
 # Dependencies (pybind11, jupyterlab/notebooks)
 sudo apt install python3-pip npm
 # Ubuntu 19.04 packages an older version of npm that is incompatible with its nodejs version...
@@ -102,9 +104,10 @@ using the Python bindings.
 We highly recommend that you install the Python dependencies and JupyterLab itself in a
 virtual environment (e.g., with [venv](https://docs.python.org/3/library/venv.html)).
 
+
 ```bash
 pip3 install wheel # Needed if installing in a virtual environment
-pip3 install jupyterlab ipykernel==5.5.5 # Use a slightly older version of ipykernel to avoid cluttering notebook with stdout content.
+pip3 install jupyterlab==3.3.4 ipykernel==5.5.5 ipywidgets==7.7.2 jupyterlab-widgets==1.1.1 # Use a slightly older version of ipykernel to avoid cluttering notebook with stdout content.
 # If necessary, follow the instructions in the warnings to add the Python user
 # bin directory (containing the 'jupyter' binary) to your PATH...
 
@@ -114,7 +117,7 @@ pip3 install -e .
 cd js
 jupyter labextension install .
 
-pip3 install matplotlib scipy
+pip3 install matplotlib numpy scipy pytest
 ```
 
 Launch Jupyter lab from the root python directory:
@@ -122,6 +125,7 @@ Launch Jupyter lab from the root python directory:
 cd python
 jupyter lab
 ```
+
 There are four demos in `python/live_demos`. Try them out!
 
 

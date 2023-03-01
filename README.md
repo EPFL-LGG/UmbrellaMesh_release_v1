@@ -72,7 +72,7 @@ sudo apt install libboost-filesystem-dev libboost-system-dev libboost-program-op
 # LibIGL/GLFW dependencies
 sudo apt install libgl1-mesa-dev libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev
 # Offscreen render dependencies
-sudo apt install libglew libpng
+sudo apt install libglew-dev libpng-dev
 # Dependencies (pybind11, jupyterlab/notebooks)
 sudo apt install python3-pip npm
 # Ubuntu 19.04 packages an older version of npm that is incompatible with its nodejs version...

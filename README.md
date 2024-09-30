@@ -39,10 +39,6 @@
 
 This repository contains the source code and data for the paper Umbrella Meshes: Elastic Mechanisms for Freeform Shape Deployment, published at SIGGRAPH 2022. 
 
-**Note**: major refactoring is in progress! Please stay tuned for updated versions in Fall 2022!
-
-![Build status](https://github.com/EPFL-LGG/UmbrellaMesh_release_v1/actions/workflows/autotests.yml/badge.svg)
-
 ## Getting Started
 
 ## C++ Code Dependencies
@@ -129,7 +125,8 @@ jupyter lab
 There are four demos in `python/live_demos`. Try them out!
 
 
-## Citation
+# License and Citation
+The code of Umbrella Meshes is license under [MIT License](LICENSE). 
 If you use parts of this code for your own research, please consider citing our paper:
 ```bibtex
 @article{RKP2022umbrellameshes,
